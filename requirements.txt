@@ -7,7 +7,7 @@ Jinja2==2.10
 MarkupSafe==1.1.0
 psycopg2==2.7.6.1
 SQLAlchemy==1.2.15
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 blinker
 django
 requests==2.21.0
