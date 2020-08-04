@@ -44,7 +44,7 @@ class Thread(db.Model):
 
 @app.route("/")
 def main():
-    threads = Thread.query.all()heroku addons:add heroku-postgresql
+    threads = Thread.query.all()
     return render_template("index.html", threads=threads)
 
 @app.route("/thread", methods=["POST"])
